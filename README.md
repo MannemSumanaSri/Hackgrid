@@ -284,7 +284,7 @@ The app will be available at `http://localhost:3000`
 
 #### Deployment Link :
 
-[https://hackgrid-vert.vercel.app/](https://hackgrid-vert.vercel.app/)
+[https://www.hackgrid.site/](https://www.hackgrid.site/)
 
 ## **Contributions**
 

@@ -286,9 +286,104 @@ The app will be available at `http://localhost:3000`
 
 [https://www.hackgrid.site/](https://www.hackgrid.site/)
 
-## **Contributions**
+## **🙌 Contribution Guidelines (GSSoC'25 Edition)**
 
-Contributions to this open-source platform are welcome. #GSSOC contributors are welcome to contribute. Please feel free to submit issues or pull requests.
+We’re thrilled to welcome GSSoC 2025 participants to Hackgrid! 🚀
+This project thrives on open-source collaboration, and we’re excited to have you contribute. Please follow the steps below to get started:
+
+📌 Getting Started
+1. Star ⭐ the Repository
+Show your support by starring the repo!
+
+2. Fork the Repository
+Click on the Fork button to create your own copy of this repository.
+
+3. Clone Your Fork
+```
+git clone https://github.com/<your-username>/hackgrid.git
+cd hackgrid
+```
+4. Create a New Branch
+```
+git checkout -b your-branch-name
+```
+5. Setup Project Locally
+Follow the steps mentioned in the Project Setup Instructions above to install dependencies and configure .env.
+
+## **🧠 Contribution Ideas**
+
+Here are a few areas where GSSoC contributors can help:
+
+🔧 Bug Fixes: UI issues, logic errors, or misbehaving components
+
+🧩 Feature Enhancements: Improving course creation flow, adding search/sort options
+
+📱 Responsive Design Fixes: Making the UI look great across devices
+
+✨ UI/UX Improvements: Animations, transitions, layout tweaks
+
+📃 Documentation: Improve README, setup steps, or add code comments
+
+🔒 Security Improvements: Suggestions around auth, secure file handling, etc.
+
+💡 New Feature Proposals: Suggest something new that aligns with the LMS vision
+
+## **✅ Contribution Checklist**
+
+Before sending a pull request (PR):
+
+ Your code is well-documented and follows project conventions.
+
+ You've tested the feature locally ```npm run dev ```.
+
+ You’ve linked the issue you're working on ```e.g., Fixes #12```.
+
+ Your PR has a clear and concise description of what was added or changed.
+
+ Screenshots are added for UI changes (in the PR).
+
+## **🔁 Submitting a Pull Request**
+1. Commit Your Changes
+
+```
+git add .
+git commit -m "Added feature: drag-and-drop course reordering"
+```
+2. Push to Your Branch
+
+```
+git push origin your-branch-name
+```
+
+3. Create a Pull Request (PR)
+
+Go to your forked repository on GitHub.
+
+Click on ``` Compare & pull request```.
+
+Add a descriptive title and summary.
+
+Select main as the base branch of the original repo.
+
+## **🗂️ Project Structure Overview**
+If you're new to full-stack or Next.js 13 (App Router), you may want to explore:
+
+```app/```: All the pages, layouts, and routing
+
+```components/```: UI and logic components
+
+```lib/```: Utility and service layer
+
+```hooks/```: Custom React hooks
+
+```prisma/```: Prisma schema and DB migrations
+
+```public/```: Static assets
+
+```scripts/seed.ts```: Sample DB seeding script
+
+## **🤝 Code of Conduct**
+Please be respectful to maintainers and fellow contributors. We're building a learning platform — let’s also make it a learning experience for all!
 
 # **License**
 
